@@ -1,0 +1,12 @@
+version: '3'
+services:
+  postgres:
+    image: 'postgres:14'
+    environment:
+      - POSTGRES_USER=unleash_user
+      - POSTGRES_PASSWORD=passord
+      - POSTGRES_DB=unleash
+    volumes:
+      - ./.data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
