@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/dev-slatto/unleash-typescript#readme",
   "dependencies": {
-    "@unleash/proxy": "^0.10.4",
+    "@unleash/proxy": "^0.15.2",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
