@@ -44,7 +44,7 @@
     "passport": "^0.6.0",
     "passport-azure-ad": "^4.3.4",
     "unleash-server": "^4.22.5",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "lint-staged": "^13.0.3",
